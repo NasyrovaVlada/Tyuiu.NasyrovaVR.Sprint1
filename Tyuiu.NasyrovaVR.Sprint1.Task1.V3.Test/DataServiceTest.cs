@@ -12,10 +12,10 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task1.V3.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 1.0;
-            double y = 2.0;
+            double x = 5.0;
+            double y = 3.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(2.75, res);
+            Assert.AreEqual(3.25, res);
         }
     }
 }
