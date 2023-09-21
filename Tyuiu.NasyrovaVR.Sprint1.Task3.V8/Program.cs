@@ -35,6 +35,7 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task3.V8
             Console.WriteLine("Величина вклада = 2500");
             Console.WriteLine("Срок вклада = " + x);
             Console.WriteLine("Процентная ставка= " + y);
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
