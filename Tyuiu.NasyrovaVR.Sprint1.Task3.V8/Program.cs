@@ -39,7 +39,7 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task3.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Доход = " + ds.IncomeAmount(x, y) + 0);
+            Console.WriteLine("Доход = " + ds.IncomeAmount(x, y));
 
             Console.ReadKey();
         }
