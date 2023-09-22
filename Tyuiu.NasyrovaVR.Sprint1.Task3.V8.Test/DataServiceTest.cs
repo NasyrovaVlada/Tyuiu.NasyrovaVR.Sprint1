@@ -14,8 +14,9 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task3.V8.Test
             DataService ds = new DataService();
             double x = 30;
             double y = 20;
+            double z = 2500;
             double wait = 41.10;
-            var res = ds.IncomeAmount(x, y);
+            var res = ds.IncomeAmount(x, y, z);
             Assert.AreEqual(wait, res);
         }
     }
