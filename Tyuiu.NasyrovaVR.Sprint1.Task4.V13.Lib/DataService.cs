@@ -13,7 +13,7 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task4.V13.Lib
         public double Calculate(double x, double y)
         {
             var res = (Math.Cos(Math.PI / x)) / (3 * Math.Exp(x+y));
-            return Math.Round(res, 2);
+            return Math.Round(res, 3);
         }
     }
 }
