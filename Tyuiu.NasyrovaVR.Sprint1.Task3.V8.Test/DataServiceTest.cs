@@ -12,11 +12,13 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task3.V8.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 30;
-            double y = 20;
-            double z = 2500;
-            double wait = 41.10;
-            var res = ds.IncomeAmount(x, y, z);
+            
+            double startAmount = 2500;
+            double percent = 20;
+            double timeDays = 30;
+            
+            double wait = 41.096;
+            var res = ds.IncomeAmount(startAmount, percent, timeDays);
             Assert.AreEqual(wait, res);
         }
     }

@@ -18,7 +18,7 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task2.V1
             Console.Title = "Спринт #1 | Выполнила: Насырова В. Р. | ИИПб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые наывыки работы в C#                                       *");
+            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнила: Насырова Влада Ренатовна | ИИПб-23-3                         *");

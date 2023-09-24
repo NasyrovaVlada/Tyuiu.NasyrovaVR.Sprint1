@@ -10,10 +10,10 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task3.V8.Lib
 {
     public class DataService : ISprint1Task3V8
     {
-        public double IncomeAmount(double x, double y, double z)
+        public double IncomeAmount(double startAmount, double percent, double timeDays)
         {
-            var res = ((z + ((((y / 100) * z) / 365) * x)) - z);
-            return Math.Round(res, 2);
+            var res = ((startAmount + ((((percent / 100) * startAmount) / 365) * timeDays)) - startAmount);
+            return Math.Round(res, 3);
         }
     }
 }

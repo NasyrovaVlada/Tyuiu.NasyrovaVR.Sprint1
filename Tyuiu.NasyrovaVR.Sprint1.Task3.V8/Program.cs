@@ -18,7 +18,7 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task3.V8
             Console.Title = "Спринт #1 | Выполнила: Насырова В. Р. | ИИПб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые наывыки работы в C#                                       *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #8                                                              *");
             Console.WriteLine("* Выполнила: Насырова Влада Ренатовна | ИИПб-23-3                         *");
@@ -31,21 +31,21 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task3.V8
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double x;
-            double y;
-            double z;
+            double startAmount;
+            double percent;
+            double timeDays;
             Console.WriteLine("Введите величину вклада (руб): ");
-            z = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите срок вклада (дней): ");
-            x = Convert.ToDouble(Console.ReadLine());
+            startAmount = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите процентную ставку (годовых): ");
-            y = Convert.ToDouble(Console.ReadLine());
+            percent = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите срок вклада (дней): ");
+            timeDays = Convert.ToDouble(Console.ReadLine());
             
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Доход = " + ds.IncomeAmount(x, y, z));
+            Console.WriteLine("Доход = " + ds.IncomeAmount(timeDays, percent, startAmount));
 
             Console.ReadKey();
         }
