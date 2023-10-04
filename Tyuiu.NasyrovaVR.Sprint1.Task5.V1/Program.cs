@@ -8,7 +8,7 @@ using Tyuiu.NasyrovaVR.Sprint1.Task5.V1.Lib;
 
 namespace Tyuiu.NasyrovaVR.Sprint1.Task5.V1
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
