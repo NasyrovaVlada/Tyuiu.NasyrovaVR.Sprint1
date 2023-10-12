@@ -15,14 +15,18 @@ namespace Tyuiu.NasyrovaVR.Sprint1.Task6.V12.Lib
     {
         public bool CheckLastWordRepetiton(string value)
         {
-            if ((int)value.LastIndexOf(' ') == (int)value.IndexOf((string)value.Substring((int)value.LastIndexOf(' '))))
-            { 
-                 return (bool)true;
-            }
-            else
+            string[] s = value.Split(' ');
+
+            string str = "";
+            int a = s.Length - 1;
+            for (int i = 0; i < s.Length - 1; i++)
             {
-                 return (bool)false;
+                str += s[i] + ' ';
             }
+
+            bool b = str.Contains(s[a]);
+
+            return b;
         }
             
     }
